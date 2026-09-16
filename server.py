@@ -13,7 +13,12 @@ from app.validation import WorkbookValidationError, load_workbook
 
 ROOT = Path(__file__).parent
 STATIC_ROOT = ROOT / "static"
-WORKBOOK_PATH = ROOT / "Atlas_Fresh_Production_Commercial_Data.xlsx"
+WORKBOOK_FILENAME = "Atlas_Fresh_Production_Commercial_Data.xlsx"
+WORKBOOK_CANDIDATES = [
+    Path(os.getenv("ATLAS_WORKBOOK_PATH", "")).expanduser() if os.getenv("ATLAS_WORKBOOK_PATH") else None,
+    ROOT / "public" / WORKBOOK_FILENAME,
+    ROOT / WORKBOOK_FILENAME,
+]
 
 STATE = {
     "workbook": None,
@@ -33,8 +38,16 @@ def to_jsonable(value):
     return value
 
 
+def resolve_workbook_path() -> Path:
+    for candidate in WORKBOOK_CANDIDATES:
+        if candidate and candidate.exists() and candidate.is_file():
+            return candidate
+    searched = ", ".join(str(path) for path in WORKBOOK_CANDIDATES if path)
+    raise FileNotFoundError(f"Workbook not found. Searched: {searched}")
+
+
 def load_default_workbook():
-    workbook = load_workbook(WORKBOOK_PATH)
+    workbook = load_workbook(resolve_workbook_path())
     STATE["workbook"] = workbook
     STATE["plan"] = None
     STATE["validation_errors"] = []
@@ -113,7 +126,8 @@ class AtlasHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         parsed = urlparse(self.path)
         if parsed.path == "/api/health":
-            self.send_json(200, {"ok": True, "status": STATE["last_status"], "workbook": WORKBOOK_PATH.name})
+            workbook_path = resolve_workbook_path()
+            self.send_json(200, {"ok": True, "status": STATE["last_status"], "workbook": workbook_path.name})
             return
         if parsed.path == "/api/plan":
             if STATE["plan"] is None:
