@@ -4,12 +4,21 @@
 
 This repository now contains a complete browser-based decision-support workspace for the supplied Atlas Fresh daily planning case. It uses a small standard-library Python API server, a deterministic planning engine, and a Next.js frontend styled with local shadcn-style components and Material Symbols icons.
 
-### Run
+### Quick Start (Makefile)
 
 ```bash
-npm install
-npm run backend
-npm run dev
+make install    # Install frontend dependencies
+make backend    # Run Python API server (port 8080)
+make frontend   # Run Next.js frontend dev server (port 3000)
+make dev        # Run both backend & frontend concurrently
+make test       # Run backend unit tests
+```
+
+### Manual Run
+
+```bash
+make install
+make dev
 ```
 
 Open `http://127.0.0.1:3000`, then select `Load Workbook` or `Recalculate Plan`.
@@ -17,13 +26,13 @@ Open `http://127.0.0.1:3000`, then select `Load Workbook` or `Recalculate Plan`.
 The Next.js app proxies `/api/*` to the Python backend at `http://127.0.0.1:8080`. To use a different backend URL:
 
 ```bash
-ATLAS_BACKEND_URL=http://127.0.0.1:8081 npm run dev
+ATLAS_BACKEND_URL=http://127.0.0.1:8081 make frontend
 ```
 
 ### Test
 
 ```bash
-python3 -m unittest discover -s tests
+make test
 ```
 
 ### API

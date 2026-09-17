@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "backend": "python3 server.py"
+    "backend": "python3 ../backend/server.py"
   },
   "dependencies": {
     "next": "^16.3.5",

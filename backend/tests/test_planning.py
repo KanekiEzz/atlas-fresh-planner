@@ -11,7 +11,7 @@ from app.validation import WorkbookValidationError, load_workbook
 
 
 ROOT = Path(__file__).resolve().parents[1]
-WORKBOOK = ROOT / "public/Atlas_Fresh_Production_Commercial_Data.xlsx"
+WORKBOOK = ROOT / "data/Atlas_Fresh_Production_Commercial_Data.xlsx"
 
 
 def farm(farm_id: str, actual: dict[str, float]) -> Farm:

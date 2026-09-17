@@ -16,6 +16,7 @@ STATIC_ROOT = ROOT / "static"
 WORKBOOK_FILENAME = "Atlas_Fresh_Production_Commercial_Data.xlsx"
 WORKBOOK_CANDIDATES = [
     Path(os.getenv("ATLAS_WORKBOOK_PATH", "")).expanduser() if os.getenv("ATLAS_WORKBOOK_PATH") else None,
+    ROOT / "data" / WORKBOOK_FILENAME,
     ROOT / "public" / WORKBOOK_FILENAME,
     ROOT / WORKBOOK_FILENAME,
 ]
