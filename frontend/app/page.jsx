@@ -14,8 +14,7 @@ import { cn } from "@/lib/utils";
 const QUESTIONS = [
   "Which clients are at risk and why?",
   "Which farm/segment gaps matter most today?",
-  "Why are 60 t going local and what is their estimated value?",
-  "What is the total revenue impact of Segment A deficit?",
+  "Why are 60t going local and what is their estimated value?",
 ];
 
 const TABS = [
@@ -1364,7 +1363,7 @@ function AssistantView({
   const response = assistant.answer;
   return (
     <>
-      <PageHead title="AI Planning Assistant" subtitle="Grounded decision explanations from calculated planning data" />
+      <PageHead title="Planning Assistant" subtitle="Ask about client risk, farm/segment gaps, or local residual value." />
       <section className="assistant-shell">
         <Card>
           <CardHeader>
@@ -1395,7 +1394,7 @@ function AssistantView({
             <Input
               value={customQuestion}
               onChange={(event) => setCustomQuestion(event.target.value)}
-              placeholder="Ask a question about current plan..."
+              placeholder="Ask about client risk, farm/segment gaps, or local residual value..."
               onKeyDown={(e) => e.key === "Enter" && askAssistant(customQuestion)}
               style={{ fontSize: 14 }}
             />
@@ -1411,8 +1410,8 @@ function AssistantView({
             <div style={{ display: "flex", alignItems: "center", gap: 12, padding: 20 }}>
               <Icon name="sync" className="spin" style={{ fontSize: 28 }} />
               <div>
-                <strong style={{ fontSize: 16 }}>Analyzing calculated data...</strong>
-                <p className="subtitle" style={{ fontSize: 14, marginTop: 2 }}>Synthesizing evidence across farms and commercial clients</p>
+                <strong style={{ fontSize: 16 }}>Analyzing calculated planning data...</strong>
+                <p className="subtitle" style={{ fontSize: 14, marginTop: 2 }}>Synthesizing facts across farms and commercial clients</p>
               </div>
             </div>
           ) : null}
@@ -1420,7 +1419,7 @@ function AssistantView({
           {assistant.error ? (
             <div className="error-state" style={{ margin: 0 }}>
               <h2 style={{ fontSize: 18 }}>{assistant.error.title}</h2>
-              <p style={{ fontSize: 14.5 }}>{assistant.error.message}</p>
+              <p style={{ fontSize: 14.5, whiteSpace: "pre-line" }}>{assistant.error.message}</p>
               <Button onClick={() => askAssistant(assistant.lastQuestion || QUESTIONS[0])}>
                 <Icon name="replay" />
                 Retry Question
@@ -1432,31 +1431,48 @@ function AssistantView({
             <>
               <div>
                 <span className="eyebrow" style={{ fontSize: 12 }}>{response.provider_state || "Deterministic Engine Response"}</span>
-                <h2 style={{ marginTop: 4, fontSize: 20 }}>
-                  {response.mode === "deterministic" ? "Calculated Explanation" : "Assistant Response"}
-                </h2>
-              </div>
-              <p style={{ fontSize: 16, lineHeight: 1.65, color: "var(--black)", fontWeight: 500 }}>
-                {response.answer}
-              </p>
-              <div style={{ marginTop: 12 }}>
-                <span className="eyebrow" style={{ marginBottom: 6, display: "block", fontSize: 12 }}>Supporting Evidence:</span>
-                <div className="warning-facts">
-                  {(response.evidence || []).map((item) => (
-                    <Badge
-                      key={item}
-                      variant={
-                        String(item).startsWith("C0") || String(item).includes("Segment A")
-                          ? "yellow"
-                          : "default"
-                      }
-                      style={{ fontSize: 13, padding: "4px 10px" }}
-                    >
-                      {item}
-                    </Badge>
-                  ))}
+                <div style={{ display: "flex", alignItems: "center", gap: 10, marginTop: 4 }}>
+                  <h2 style={{ fontSize: 20, margin: 0 }}>
+                    {response.mode === "deterministic" ? "Deterministic Summary" : "AI Planning Assistant Response"}
+                  </h2>
+                  <Badge
+                    variant={response.mode === "ai" ? "default" : "yellow"}
+                    style={{ fontSize: 12, textTransform: "uppercase", letterSpacing: "0.05em" }}
+                  >
+                    {response.mode === "ai" ? "AI Answer" : "Deterministic Fallback"}
+                  </Badge>
                 </div>
               </div>
+              <p style={{ fontSize: 15.5, lineHeight: 1.65, color: "var(--black)", fontWeight: 500, whiteSpace: "pre-line" }}>
+                {response.answer}
+              </p>
+              {(response.evidence && response.evidence.length > 0) ? (
+                <div style={{ marginTop: 12 }}>
+                  <span className="eyebrow" style={{ marginBottom: 6, display: "block", fontSize: 12 }}>Verified Evidence:</span>
+                  <div className="warning-facts">
+                    {response.evidence.map((item, idx) => {
+                      const isObj = typeof item === "object" && item !== null;
+                      const type = isObj ? item.type : "";
+                      const id = isObj ? item.id : String(item);
+                      const label = type === "segment" && !id.startsWith("Segment") ? `Segment ${id}` : id;
+                      const key = isObj ? `${item.type}-${item.id}-${idx}` : `${item}-${idx}`;
+                      return (
+                        <Badge
+                          key={key}
+                          variant={
+                            label.startsWith("C0") || label.includes("Segment A")
+                              ? "yellow"
+                              : "default"
+                          }
+                          style={{ fontSize: 13, padding: "4px 10px" }}
+                        >
+                          {label}
+                        </Badge>
+                      );
+                    })}
+                  </div>
+                </div>
+              ) : null}
             </>
           ) : null}
 
@@ -1464,6 +1480,7 @@ function AssistantView({
             <div style={{ textAlign: "center", padding: "40px 20px", color: "var(--black)" }}>
               <Icon name="psychology" style={{ fontSize: 48 }} />
               <p style={{ marginTop: 10, fontWeight: 600, fontSize: 16 }}>Select a suggested question or type your prompt above.</p>
+              <p className="subtitle" style={{ fontSize: 13.5, marginTop: 4 }}>Supported topics: clients at risk, farm/segment gaps, or local residual value.</p>
             </div>
           ) : null}
         </Card>

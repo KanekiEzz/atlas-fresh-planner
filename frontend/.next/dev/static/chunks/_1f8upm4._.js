@@ -31,8 +31,7 @@ var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.sign
 const QUESTIONS = [
     "Which clients are at risk and why?",
     "Which farm/segment gaps matter most today?",
-    "Why are 60 t going local and what is their estimated value?",
-    "What is the total revenue impact of Segment A deficit?"
+    "Why are 60t going local and what is their estimated value?"
 ];
 const TABS = [
     {
@@ -113,7 +112,7 @@ function Icon({ name, className, style }) {
         children: name
     }, void 0, false, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 59,
+        lineNumber: 58,
         columnNumber: 5
     }, this);
 }
@@ -131,12 +130,12 @@ function ProgressBar({ value, max, variant = "good" }) {
             }
         }, void 0, false, {
             fileName: "[project]/app/page.jsx",
-            lineNumber: 69,
+            lineNumber: 68,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 68,
+        lineNumber: 67,
         columnNumber: 5
     }, this);
 }
@@ -274,7 +273,7 @@ function PlannerPage() {
             onReset: resetUi
         }, void 0, false, {
             fileName: "[project]/app/page.jsx",
-            lineNumber: 201,
+            lineNumber: 200,
             columnNumber: 7
         }, this);
     } else if (error) {
@@ -284,7 +283,7 @@ function PlannerPage() {
             onReset: resetUi
         }, void 0, false, {
             fileName: "[project]/app/page.jsx",
-            lineNumber: 208,
+            lineNumber: 207,
             columnNumber: 15
         }, this);
     } else if (!plan) {
@@ -294,7 +293,7 @@ function PlannerPage() {
             busy: busy
         }, void 0, false, {
             fileName: "[project]/app/page.jsx",
-            lineNumber: 210,
+            lineNumber: 209,
             columnNumber: 15
         }, this);
     } else {
@@ -316,35 +315,35 @@ function PlannerPage() {
                 ...props
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 226,
+                lineNumber: 225,
                 columnNumber: 17
             }, this),
             production: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Production, {
                 ...props
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 227,
+                lineNumber: 226,
                 columnNumber: 19
             }, this),
             commercial: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Commercial, {
                 ...props
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 228,
+                lineNumber: 227,
                 columnNumber: 19
             }, this),
             allocations: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Allocations, {
                 ...props
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 229,
+                lineNumber: 228,
                 columnNumber: 20
             }, this),
             assistant: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(AssistantView, {
                 ...props
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 230,
+                lineNumber: 229,
                 columnNumber: 18
             }, this)
         })[view];
@@ -364,7 +363,7 @@ function PlannerPage() {
                                 children: "AF"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 238,
+                                lineNumber: 237,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -373,26 +372,26 @@ function PlannerPage() {
                                         children: "Atlas Fresh"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 240,
+                                        lineNumber: 239,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "Daily Export Planner"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 241,
+                                        lineNumber: 240,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 239,
+                                lineNumber: 238,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 237,
+                        lineNumber: 236,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SidebarNav, {
@@ -403,7 +402,7 @@ function PlannerPage() {
                         farmsCount: plan?.farms_count
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 244,
+                        lineNumber: 243,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -414,7 +413,7 @@ function PlannerPage() {
                                 children: "Decision Support"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 252,
+                                lineNumber: 251,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -424,18 +423,18 @@ function PlannerPage() {
                                     children: "Deterministic farm-to-client allocation & residual analytics."
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 254,
+                                    lineNumber: 253,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 253,
+                                lineNumber: 252,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 251,
+                        lineNumber: 250,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -446,7 +445,7 @@ function PlannerPage() {
                                 children: "AF"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 260,
+                                lineNumber: 259,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -455,39 +454,39 @@ function PlannerPage() {
                                         children: "Operations Team"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 262,
+                                        lineNumber: 261,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "Production x Commercial"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 263,
+                                        lineNumber: 262,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 261,
+                                lineNumber: 260,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
                                 name: "tune"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 265,
+                                lineNumber: 264,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 259,
+                        lineNumber: 258,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 236,
+                lineNumber: 235,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -506,7 +505,7 @@ function PlannerPage() {
                                             name: "search"
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 278,
+                                            lineNumber: 277,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -516,25 +515,25 @@ function PlannerPage() {
                                             onChange: (e)=>setGlobalSearch(e.target.value)
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 279,
+                                            lineNumber: 278,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("kbd", {
                                             children: "/"
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 285,
+                                            lineNumber: 284,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 277,
+                                    lineNumber: 276,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 270,
+                                lineNumber: 269,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -546,7 +545,7 @@ function PlannerPage() {
                                         children: "AF"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 289,
+                                        lineNumber: 288,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -555,26 +554,26 @@ function PlannerPage() {
                                                 children: "Atlas Fresh"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 291,
+                                                lineNumber: 290,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: "Daily Export Planner"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 292,
+                                                lineNumber: 291,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 290,
+                                        lineNumber: 289,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 288,
+                                lineNumber: 287,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -585,7 +584,7 @@ function PlannerPage() {
                                         children: busy ? "Processing..." : status
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 296,
+                                        lineNumber: 295,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -597,14 +596,14 @@ function PlannerPage() {
                                                 name: "upload_file"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 300,
+                                                lineNumber: 299,
                                                 columnNumber: 15
                                             }, this),
                                             "Load Data"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 299,
+                                        lineNumber: 298,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -616,26 +615,26 @@ function PlannerPage() {
                                                 className: busy ? "spin" : ""
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 304,
+                                                lineNumber: 303,
                                                 columnNumber: 15
                                             }, this),
                                             "Recalculate"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 303,
+                                        lineNumber: 302,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 295,
+                                lineNumber: 294,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 269,
+                        lineNumber: 268,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -644,13 +643,13 @@ function PlannerPage() {
                         children: content
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 309,
+                        lineNumber: 308,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 268,
+                lineNumber: 267,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$sheet$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Sheet"], {
@@ -662,12 +661,12 @@ function PlannerPage() {
                     item: selectedImpact
                 }, void 0, false, {
                     fileName: "[project]/app/page.jsx",
-                    lineNumber: 325,
+                    lineNumber: 324,
                     columnNumber: 27
                 }, this) : null
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 315,
+                lineNumber: 314,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$sheet$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Sheet"], {
@@ -680,18 +679,18 @@ function PlannerPage() {
                     plan: plan
                 }, void 0, false, {
                     fileName: "[project]/app/page.jsx",
-                    lineNumber: 340,
+                    lineNumber: 339,
                     columnNumber: 11
                 }, this) : null
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 329,
+                lineNumber: 328,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 235,
+        lineNumber: 234,
         columnNumber: 5
     }, this);
 }
@@ -706,7 +705,7 @@ function SidebarNav({ view, setView, atRiskCount, alertsCount, farmsCount, compa
                 children: "Workspace"
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 350,
+                lineNumber: 349,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -732,20 +731,20 @@ function SidebarNav({ view, setView, atRiskCount, alertsCount, farmsCount, compa
                                         name: tab.icon
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 369,
+                                        lineNumber: 368,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: tab.label
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 370,
+                                        lineNumber: 369,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 368,
+                                lineNumber: 367,
                                 columnNumber: 15
                             }, this),
                             badge ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -753,25 +752,25 @@ function SidebarNav({ view, setView, atRiskCount, alertsCount, farmsCount, compa
                                 children: badge
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 372,
+                                lineNumber: 371,
                                 columnNumber: 24
                             }, this) : null
                         ]
                     }, tab.id, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 362,
+                        lineNumber: 361,
                         columnNumber: 13
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 351,
+                lineNumber: 350,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 349,
+        lineNumber: 348,
         columnNumber: 5
     }, this);
 }
@@ -786,7 +785,7 @@ function PageHead({ title, subtitle, children }) {
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 385,
+                        lineNumber: 384,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -794,13 +793,13 @@ function PageHead({ title, subtitle, children }) {
                         children: subtitle
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 386,
+                        lineNumber: 385,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 384,
+                lineNumber: 383,
                 columnNumber: 7
             }, this),
             children ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -808,13 +807,13 @@ function PageHead({ title, subtitle, children }) {
                 children: children
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 388,
+                lineNumber: 387,
                 columnNumber: 19
             }, this) : null
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 383,
+        lineNumber: 382,
         columnNumber: 5
     }, this);
 }
@@ -830,7 +829,7 @@ function Metric({ label, value, subtext, icon, warning = false, progress = null,
                         children: label
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 397,
+                        lineNumber: 396,
                         columnNumber: 9
                     }, this),
                     icon ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -839,25 +838,25 @@ function Metric({ label, value, subtext, icon, warning = false, progress = null,
                             name: icon
                         }, void 0, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 401,
+                            lineNumber: 400,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 400,
+                        lineNumber: 399,
                         columnNumber: 11
                     }, this) : null
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 396,
+                lineNumber: 395,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                 children: value
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 405,
+                lineNumber: 404,
                 columnNumber: 7
             }, this),
             progress !== null ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -870,25 +869,25 @@ function Metric({ label, value, subtext, icon, warning = false, progress = null,
                     variant: warning ? "warn" : "good"
                 }, void 0, false, {
                     fileName: "[project]/app/page.jsx",
-                    lineNumber: 408,
+                    lineNumber: 407,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 407,
+                lineNumber: 406,
                 columnNumber: 9
             }, this) : subtext ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: "metric-meta",
                 children: subtext
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 411,
+                lineNumber: 410,
                 columnNumber: 9
             }, this) : null
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 395,
+        lineNumber: 394,
         columnNumber: 5
     }, this);
 }
@@ -905,20 +904,20 @@ function MiniBar({ label, value, max, meta, tone = "neutral" }) {
                         children: label
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 422,
+                        lineNumber: 421,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                         children: meta
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 423,
+                        lineNumber: 422,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 421,
+                lineNumber: 420,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -930,18 +929,18 @@ function MiniBar({ label, value, max, meta, tone = "neutral" }) {
                     }
                 }, void 0, false, {
                     fileName: "[project]/app/page.jsx",
-                    lineNumber: 426,
+                    lineNumber: 425,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 425,
+                lineNumber: 424,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 420,
+        lineNumber: 419,
         columnNumber: 5
     }, this);
 }
@@ -988,12 +987,12 @@ function DecisionFlow({ plan, atRisk }) {
                             name: step.icon
                         }, void 0, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 471,
+                            lineNumber: 470,
                             columnNumber: 43
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 471,
+                        lineNumber: 470,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1002,38 +1001,38 @@ function DecisionFlow({ plan, atRisk }) {
                                 children: step.label
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 473,
+                                lineNumber: 472,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                 children: step.title
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 474,
+                                lineNumber: 473,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: step.detail
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 475,
+                                lineNumber: 474,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 472,
+                        lineNumber: 471,
                         columnNumber: 11
                     }, this)
                 ]
             }, step.label, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 470,
+                lineNumber: 469,
                 columnNumber: 9
             }, this))
     }, void 0, false, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 468,
+        lineNumber: 467,
         columnNumber: 5
     }, this);
 }
@@ -1054,13 +1053,13 @@ function SegmentBars({ plan }) {
                 tone: variance < 0 ? "warn" : "neutral"
             }, segment, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 491,
+                lineNumber: 490,
                 columnNumber: 11
             }, this);
         })
     }, void 0, false, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 486,
+        lineNumber: 485,
         columnNumber: 5
     }, this);
 }
@@ -1076,7 +1075,7 @@ function OperationsSnapshot({ plan, atRisk }) {
                         children: "Operational Flow"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 510,
+                        lineNumber: 509,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1084,13 +1083,13 @@ function OperationsSnapshot({ plan, atRisk }) {
                         children: "Production -> Capacity -> Allocation -> Risk"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 511,
+                        lineNumber: 510,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 509,
+                lineNumber: 508,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1103,7 +1102,7 @@ function OperationsSnapshot({ plan, atRisk }) {
                         meta: `${fmtT(plan.actual_total_t)} / ${fmtT(plan.expected_total_t)}`
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 514,
+                        lineNumber: 513,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(MiniBar, {
@@ -1114,7 +1113,7 @@ function OperationsSnapshot({ plan, atRisk }) {
                         tone: plan.exported_t >= plan.station_capacity_t ? "warn" : "neutral"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 520,
+                        lineNumber: 519,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(MiniBar, {
@@ -1124,7 +1123,7 @@ function OperationsSnapshot({ plan, atRisk }) {
                         meta: `${fmtT(plan.exported_t)} exported`
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 527,
+                        lineNumber: 526,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(MiniBar, {
@@ -1135,19 +1134,19 @@ function OperationsSnapshot({ plan, atRisk }) {
                         tone: shortageT > 0 ? "warn" : "neutral"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 533,
+                        lineNumber: 532,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 513,
+                lineNumber: 512,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 508,
+        lineNumber: 507,
         columnNumber: 5
     }, this);
 }
@@ -1163,14 +1162,14 @@ function EmptyState({ onLoad, onRecalc, busy }) {
                         children: "Decision Support Workspace"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 549,
+                        lineNumber: 548,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                         children: "Daily Export Planner"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 550,
+                        lineNumber: 549,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1178,20 +1177,20 @@ function EmptyState({ onLoad, onRecalc, busy }) {
                         children: "Atlas Fresh Production x Commercial Daily Allocation Workspace"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 551,
+                        lineNumber: 550,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 548,
+                lineNumber: 547,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 children: "Load and validate the workbook, then calculate the deterministic farm-to-client export allocation and local residual distribution."
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 553,
+                lineNumber: 552,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1205,14 +1204,14 @@ function EmptyState({ onLoad, onRecalc, busy }) {
                                 name: "upload_file"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 559,
+                                lineNumber: 558,
                                 columnNumber: 11
                             }, this),
                             "Load Workbook Data"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 558,
+                        lineNumber: 557,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1224,26 +1223,26 @@ function EmptyState({ onLoad, onRecalc, busy }) {
                                 name: "refresh"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 563,
+                                lineNumber: 562,
                                 columnNumber: 11
                             }, this),
                             "Recalculate Plan"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 562,
+                        lineNumber: 561,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 557,
+                lineNumber: 556,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 547,
+        lineNumber: 546,
         columnNumber: 5
     }, this);
 }
@@ -1259,20 +1258,20 @@ function ValidationError({ errors, onLoad, onReset }) {
                         children: "Data Validation Error"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 575,
+                        lineNumber: 574,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                         children: "Workbook Validation Failed"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 576,
+                        lineNumber: 575,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 574,
+                lineNumber: 573,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableWrap"], {
@@ -1285,39 +1284,39 @@ function ValidationError({ errors, onLoad, onReset }) {
                                         children: "Sheet"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 582,
+                                        lineNumber: 581,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                         children: "Entity ID"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 583,
+                                        lineNumber: 582,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                         children: "Field"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 584,
+                                        lineNumber: 583,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                         children: "Issue Description"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 585,
+                                        lineNumber: 584,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 581,
+                                lineNumber: 580,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 580,
+                            lineNumber: 579,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -1326,6 +1325,19 @@ function ValidationError({ errors, onLoad, onReset }) {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
                                                 children: item.sheet
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/page.jsx",
+                                                lineNumber: 590,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/page.jsx",
+                                            lineNumber: 590,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                children: item.entity_id
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
                                                 lineNumber: 591,
@@ -1337,23 +1349,10 @@ function ValidationError({ errors, onLoad, onReset }) {
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: item.entity_id
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/page.jsx",
-                                                lineNumber: 592,
-                                                columnNumber: 21
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/page.jsx",
-                                            lineNumber: 592,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
                                             children: item.field
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 593,
+                                            lineNumber: 592,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -1361,29 +1360,29 @@ function ValidationError({ errors, onLoad, onReset }) {
                                             children: item.problem
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 594,
+                                            lineNumber: 593,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, `${item.sheet}-${item.entity_id}-${item.field}-${index}`, true, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 590,
+                                    lineNumber: 589,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 588,
+                            lineNumber: 587,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/page.jsx",
-                    lineNumber: 579,
+                    lineNumber: 578,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 578,
+                lineNumber: 577,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1396,14 +1395,14 @@ function ValidationError({ errors, onLoad, onReset }) {
                                 name: "replay"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 602,
+                                lineNumber: 601,
                                 columnNumber: 11
                             }, this),
                             "Re-validate Workbook"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 601,
+                        lineNumber: 600,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1414,26 +1413,26 @@ function ValidationError({ errors, onLoad, onReset }) {
                                 name: "restart_alt"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 606,
+                                lineNumber: 605,
                                 columnNumber: 11
                             }, this),
                             "Reset Workspace"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 605,
+                        lineNumber: 604,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 600,
+                lineNumber: 599,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 573,
+        lineNumber: 572,
         columnNumber: 5
     }, this);
 }
@@ -1447,21 +1446,21 @@ function ServerError({ error, onRecalc, onReset }) {
                 children: "Backend Service Error"
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 617,
+                lineNumber: 616,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                 children: "Calculation Service Unavailable"
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 618,
+                lineNumber: 617,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 children: error
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 619,
+                lineNumber: 618,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1474,14 +1473,14 @@ function ServerError({ error, onRecalc, onReset }) {
                                 name: "replay"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 622,
+                                lineNumber: 621,
                                 columnNumber: 11
                             }, this),
                             "Retry Calculation"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 621,
+                        lineNumber: 620,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1492,26 +1491,26 @@ function ServerError({ error, onRecalc, onReset }) {
                                 name: "restart_alt"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 626,
+                                lineNumber: 625,
                                 columnNumber: 11
                             }, this),
                             "Reset Workspace"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 625,
+                        lineNumber: 624,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 620,
+                lineNumber: 619,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 616,
+        lineNumber: 615,
         columnNumber: 5
     }, this);
 }
@@ -1533,7 +1532,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                 name: "verified"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 643,
+                                lineNumber: 642,
                                 columnNumber: 11
                             }, this),
                             " Data Health: ",
@@ -1541,7 +1540,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 642,
+                        lineNumber: 641,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -1551,7 +1550,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                 name: "schedule"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 646,
+                                lineNumber: 645,
                                 columnNumber: 11
                             }, this),
                             " Status: ",
@@ -1559,7 +1558,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 645,
+                        lineNumber: 644,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -1569,7 +1568,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                 name: "agriculture"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 650,
+                                lineNumber: 649,
                                 columnNumber: 11
                             }, this),
                             " ",
@@ -1578,7 +1577,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 649,
+                        lineNumber: 648,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -1588,7 +1587,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                 name: "groups"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 653,
+                                lineNumber: 652,
                                 columnNumber: 11
                             }, this),
                             " ",
@@ -1597,13 +1596,13 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 652,
+                        lineNumber: 651,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 641,
+                lineNumber: 640,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DecisionFlow, {
@@ -1611,7 +1610,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                 atRisk: atRisk
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 657,
+                lineNumber: 656,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1624,7 +1623,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                         subtext: "Expected harvest mix"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 660,
+                        lineNumber: 659,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Metric, {
@@ -1635,7 +1634,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                         emphasis: true
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 666,
+                        lineNumber: 665,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Metric, {
@@ -1645,7 +1644,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                         subtext: "Max daily throughput line"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 673,
+                        lineNumber: 672,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Metric, {
@@ -1656,7 +1655,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                         emphasis: true
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 679,
+                        lineNumber: 678,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Metric, {
@@ -1666,7 +1665,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                         progress: plan.export_rate * 100
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 686,
+                        lineNumber: 685,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Metric, {
@@ -1677,13 +1676,13 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                         subtext: "Unexported surplus"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 692,
+                        lineNumber: 691,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 659,
+                lineNumber: 658,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(OperationsSnapshot, {
@@ -1691,7 +1690,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                 atRisk: atRisk
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 701,
+                lineNumber: 700,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1706,21 +1705,21 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                         name: "payments"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 707,
+                                        lineNumber: 706,
                                         columnNumber: 13
                                     }, this),
                                     " Export Revenue"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 706,
+                                lineNumber: 705,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                 children: fmtEur(plan.export_revenue_eur)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 709,
+                                lineNumber: 708,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1736,13 +1735,13 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 710,
+                                lineNumber: 709,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 705,
+                        lineNumber: 704,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1753,21 +1752,21 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                         name: "storefront"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 716,
+                                        lineNumber: 715,
                                         columnNumber: 13
                                     }, this),
                                     " Local Market Value"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 715,
+                                lineNumber: 714,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                 children: fmtEur(plan.local_value_eur)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 718,
+                                lineNumber: 717,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1780,13 +1779,13 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                 children: "10% reference price estimate"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 719,
+                                lineNumber: 718,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 714,
+                        lineNumber: 713,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1797,21 +1796,21 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                         name: "account_balance_wallet"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 725,
+                                        lineNumber: 724,
                                         columnNumber: 13
                                     }, this),
                                     " Total Realized Value"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 724,
+                                lineNumber: 723,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                 children: fmtEur(plan.total_value_eur)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 727,
+                                lineNumber: 726,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1823,19 +1822,19 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                 children: "Export revenue + local value"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 728,
+                                lineNumber: 727,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 723,
+                        lineNumber: 722,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 704,
+                lineNumber: 703,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -1855,7 +1854,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 737,
+                                lineNumber: 736,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1868,13 +1867,13 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 740,
+                                lineNumber: 739,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 736,
+                        lineNumber: 735,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1890,18 +1889,18 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                             }
                         }, void 0, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 745,
+                            lineNumber: 744,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 744,
+                        lineNumber: 743,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 735,
+                lineNumber: 734,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1921,7 +1920,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 755,
+                                lineNumber: 754,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1931,13 +1930,13 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 756,
+                                lineNumber: 755,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 754,
+                        lineNumber: 753,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1951,7 +1950,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 759,
+                                lineNumber: 758,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -1962,7 +1961,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 760,
+                                lineNumber: 759,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -1970,7 +1969,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                 children: "10% Segment Reference Export Price"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 761,
+                                lineNumber: 760,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -1978,13 +1977,13 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                 children: plan.exported_t >= plan.station_capacity_t ? "Station 500 t/day capacity limit reached" : "Compatible export client demand exhausted"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 762,
+                                lineNumber: 761,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 758,
+                        lineNumber: 757,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2000,13 +1999,13 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 768,
+                        lineNumber: 767,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 753,
+                lineNumber: 752,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2019,19 +2018,19 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                     children: "Production vs Plan Summary"
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 777,
+                                    lineNumber: 776,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 776,
+                                lineNumber: 775,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SegmentBars, {
                                 plan: plan
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 779,
+                                lineNumber: 778,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2045,7 +2044,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 781,
+                                        lineNumber: 780,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -2056,7 +2055,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 782,
+                                        lineNumber: 781,
                                         columnNumber: 13
                                     }, this),
                                     Object.entries(plan.actual_by_segment_t).map(([segment, value])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -2069,13 +2068,13 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                             ]
                                         }, segment, true, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 784,
+                                            lineNumber: 783,
                                             columnNumber: 15
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 780,
+                                lineNumber: 779,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2101,7 +2100,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 799,
+                                            lineNumber: 798,
                                             columnNumber: 15
                                         }, this),
                                         "Segment A is below plan by ",
@@ -2110,18 +2109,18 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 798,
+                                    lineNumber: 797,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 789,
+                                lineNumber: 788,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 775,
+                        lineNumber: 774,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -2136,7 +2135,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 807,
+                                        lineNumber: 806,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2144,13 +2143,13 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                         children: "Click a client to inspect the allocation trace."
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 808,
+                                        lineNumber: 807,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 806,
+                                lineNumber: 805,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2171,7 +2170,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                                         children: client.client_id
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 821,
+                                                        lineNumber: 820,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2183,7 +2182,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                                         children: client.client_name
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 822,
+                                                        lineNumber: 821,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2202,13 +2201,13 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 825,
+                                                        lineNumber: 824,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 820,
+                                                lineNumber: 819,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
@@ -2216,7 +2215,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                                 className: "risk-arrow"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 829,
+                                                lineNumber: 828,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -2224,30 +2223,30 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                                                 children: client.status
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 830,
+                                                lineNumber: 829,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, client.client_id, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 812,
+                                        lineNumber: 811,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 810,
+                                lineNumber: 809,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 805,
+                        lineNumber: 804,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 774,
+                lineNumber: 773,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -2260,12 +2259,12 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                             children: "Deterministic Allocation & Value Explanation"
                         }, void 0, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 841,
+                            lineNumber: 840,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 840,
+                        lineNumber: 839,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -2284,24 +2283,24 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 844,
+                            lineNumber: 843,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 843,
+                        lineNumber: 842,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 839,
+                lineNumber: 838,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 640,
+        lineNumber: 639,
         columnNumber: 5
     }, this);
 }
@@ -2342,7 +2341,7 @@ function Production({ plan, openImpact, globalSearch }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 878,
+                        lineNumber: 877,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -2353,7 +2352,7 @@ function Production({ plan, openImpact, globalSearch }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 879,
+                        lineNumber: 878,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -2364,13 +2363,13 @@ function Production({ plan, openImpact, globalSearch }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 880,
+                        lineNumber: 879,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 877,
+                lineNumber: 876,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2397,7 +2396,7 @@ function Production({ plan, openImpact, globalSearch }) {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 891,
+                                        lineNumber: 890,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -2405,13 +2404,13 @@ function Production({ plan, openImpact, globalSearch }) {
                                         children: signedT(variance)
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 892,
+                                        lineNumber: 891,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 890,
+                                lineNumber: 889,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
@@ -2422,7 +2421,7 @@ function Production({ plan, openImpact, globalSearch }) {
                                 children: fmtT(actual)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 896,
+                                lineNumber: 895,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2433,19 +2432,19 @@ function Production({ plan, openImpact, globalSearch }) {
                                 children: "Actual daily receipts"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 897,
+                                lineNumber: 896,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, segment, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 889,
+                        lineNumber: 888,
                         columnNumber: 13
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 884,
+                lineNumber: 883,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -2458,12 +2457,12 @@ function Production({ plan, openImpact, globalSearch }) {
                             children: "Daily Priority Alerts & Impact Triggers"
                         }, void 0, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 906,
+                            lineNumber: 905,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 905,
+                        lineNumber: 904,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2479,7 +2478,7 @@ function Production({ plan, openImpact, globalSearch }) {
                                         name: "campaign"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 918,
+                                        lineNumber: 917,
                                         columnNumber: 17
                                     }, this),
                                     alert.label,
@@ -2488,19 +2487,19 @@ function Production({ plan, openImpact, globalSearch }) {
                                 ]
                             }, `${alert.label}-${index}`, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 912,
+                                lineNumber: 911,
                                 columnNumber: 15
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 908,
+                        lineNumber: 907,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 904,
+                lineNumber: 903,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2519,7 +2518,7 @@ function Production({ plan, openImpact, globalSearch }) {
                                 name: "search"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 929,
+                                lineNumber: 928,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2529,13 +2528,13 @@ function Production({ plan, openImpact, globalSearch }) {
                                 onChange: (e)=>setSearch(e.target.value)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 930,
+                                lineNumber: 929,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 928,
+                        lineNumber: 927,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2555,7 +2554,7 @@ function Production({ plan, openImpact, globalSearch }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 938,
+                                lineNumber: 937,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -2565,7 +2564,7 @@ function Production({ plan, openImpact, globalSearch }) {
                                 children: "Deficits Only"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 945,
+                                lineNumber: 944,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -2575,19 +2574,19 @@ function Production({ plan, openImpact, globalSearch }) {
                                 children: "Local Residuals Only"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 952,
+                                lineNumber: 951,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 937,
+                        lineNumber: 936,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 927,
+                lineNumber: 926,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableWrap"], {
@@ -2603,7 +2602,7 @@ function Production({ plan, openImpact, globalSearch }) {
                                         children: "Farm"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 967,
+                                        lineNumber: 966,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2611,7 +2610,7 @@ function Production({ plan, openImpact, globalSearch }) {
                                         children: "Expected Cap"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 968,
+                                        lineNumber: 967,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2619,7 +2618,7 @@ function Production({ plan, openImpact, globalSearch }) {
                                         children: "Actual Total"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 969,
+                                        lineNumber: 968,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2627,14 +2626,14 @@ function Production({ plan, openImpact, globalSearch }) {
                                         children: "Variance"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 970,
+                                        lineNumber: 969,
                                         columnNumber: 15
                                     }, this),
                                     SEGMENTS.map((segment)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FarmSegmentHead, {
                                             segment: segment
                                         }, segment, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 972,
+                                            lineNumber: 971,
                                             columnNumber: 17
                                         }, this)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2642,18 +2641,18 @@ function Production({ plan, openImpact, globalSearch }) {
                                         children: "Local Residual"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 974,
+                                        lineNumber: 973,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 966,
+                                lineNumber: 965,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 965,
+                            lineNumber: 964,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -2665,12 +2664,12 @@ function Production({ plan, openImpact, globalSearch }) {
                                                     children: farm.farm_id
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 981,
+                                                    lineNumber: 980,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 982,
+                                                    lineNumber: 981,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2681,13 +2680,13 @@ function Production({ plan, openImpact, globalSearch }) {
                                                     children: farm.farm_name
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 983,
+                                                    lineNumber: 982,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 980,
+                                            lineNumber: 979,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2695,7 +2694,7 @@ function Production({ plan, openImpact, globalSearch }) {
                                             children: fmtT(farm.expected_capacity_t)
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 985,
+                                            lineNumber: 984,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2703,7 +2702,7 @@ function Production({ plan, openImpact, globalSearch }) {
                                             children: fmtT(farm.actual_total_t)
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 986,
+                                            lineNumber: 985,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2712,12 +2711,12 @@ function Production({ plan, openImpact, globalSearch }) {
                                                 children: signedT(farm.variance_t)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 988,
+                                                lineNumber: 987,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 987,
+                                            lineNumber: 986,
                                             columnNumber: 17
                                         }, this),
                                         SEGMENTS.map((segment)=>{
@@ -2729,7 +2728,7 @@ function Production({ plan, openImpact, globalSearch }) {
                                                 openImpact: openImpact
                                             }, `${farm.farm_id}-${segment}`, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 993,
+                                                lineNumber: 992,
                                                 columnNumber: 21
                                             }, this);
                                         }),
@@ -2740,40 +2739,40 @@ function Production({ plan, openImpact, globalSearch }) {
                                                 children: fmtT(farm.local_residual_t)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1004,
+                                                lineNumber: 1003,
                                                 columnNumber: 21
                                             }, this) : "0.0 t"
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 1002,
+                                            lineNumber: 1001,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, farm.farm_id, true, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 979,
+                                    lineNumber: 978,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 977,
+                            lineNumber: 976,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/page.jsx",
-                    lineNumber: 964,
+                    lineNumber: 963,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 963,
+                lineNumber: 962,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 876,
+        lineNumber: 875,
         columnNumber: 5
     }, this);
 }
@@ -2790,7 +2789,7 @@ function FarmSegmentHead({ segment }) {
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1021,
+                lineNumber: 1020,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2801,7 +2800,7 @@ function FarmSegmentHead({ segment }) {
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1022,
+                lineNumber: 1021,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2812,13 +2811,13 @@ function FarmSegmentHead({ segment }) {
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1023,
+                lineNumber: 1022,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 1020,
+        lineNumber: 1019,
         columnNumber: 5
     }, this);
 }
@@ -2831,7 +2830,7 @@ function FarmSegmentCells({ farmId, segment, row, openImpact }) {
                 children: fmtT(row.expected_t)
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1031,
+                lineNumber: 1030,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2839,7 +2838,7 @@ function FarmSegmentCells({ farmId, segment, row, openImpact }) {
                 children: fmtT(row.actual_t)
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1032,
+                lineNumber: 1031,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2852,18 +2851,18 @@ function FarmSegmentCells({ farmId, segment, row, openImpact }) {
                     children: signedT(row.variance_t)
                 }, void 0, false, {
                     fileName: "[project]/app/page.jsx",
-                    lineNumber: 1034,
+                    lineNumber: 1033,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1033,
+                lineNumber: 1032,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 1030,
+        lineNumber: 1029,
         columnNumber: 5
     }, this);
 }
@@ -2897,7 +2896,7 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1065,
+                        lineNumber: 1064,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -2908,7 +2907,7 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1066,
+                        lineNumber: 1065,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -2919,13 +2918,13 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1069,
+                        lineNumber: 1068,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1064,
+                lineNumber: 1063,
                 columnNumber: 7
             }, this),
             atRisk.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -2947,7 +2946,7 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                             }
                         }, void 0, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 1076,
+                            lineNumber: 1075,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2959,7 +2958,7 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 1078,
+                                    lineNumber: 1077,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2967,24 +2966,24 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                     children: "Segment A supply deficit directly restricts fulfillment for Segment A program clients."
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 1081,
+                                    lineNumber: 1080,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 1077,
+                            lineNumber: 1076,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/page.jsx",
-                    lineNumber: 1075,
+                    lineNumber: 1074,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1074,
+                lineNumber: 1073,
                 columnNumber: 9
             }, this) : null,
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3002,7 +3001,7 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                             name: "search"
                         }, void 0, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 1091,
+                            lineNumber: 1090,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3012,18 +3011,18 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                             onChange: (e)=>setSearch(e.target.value)
                         }, void 0, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 1092,
+                            lineNumber: 1091,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/page.jsx",
-                    lineNumber: 1090,
+                    lineNumber: 1089,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1089,
+                lineNumber: 1088,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableWrap"], {
@@ -3036,14 +3035,14 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                         children: "Client Name"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1105,
+                                        lineNumber: 1104,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                         children: "Quality Rule"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1106,
+                                        lineNumber: 1105,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -3051,7 +3050,7 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                         children: "Demand"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1107,
+                                        lineNumber: 1106,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -3059,7 +3058,7 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                         children: "Allocated"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1108,
+                                        lineNumber: 1107,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -3069,7 +3068,7 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                         children: "Fulfillment %"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1109,
+                                        lineNumber: 1108,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -3077,7 +3076,7 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                         children: "Shortage"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1110,
+                                        lineNumber: 1109,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -3085,39 +3084,39 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                         children: "Revenue"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1111,
+                                        lineNumber: 1110,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                         children: "Status"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1112,
+                                        lineNumber: 1111,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                         children: "Shortage Reason"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1113,
+                                        lineNumber: 1112,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                         children: "Action"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1114,
+                                        lineNumber: 1113,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1104,
+                                lineNumber: 1103,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 1103,
+                            lineNumber: 1102,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -3131,12 +3130,12 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                                     children: client.client_id
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1123,
+                                                    lineNumber: 1122,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1124,
+                                                    lineNumber: 1123,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3147,13 +3146,13 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                                     children: client.client_name
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1125,
+                                                    lineNumber: 1124,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 1122,
+                                            lineNumber: 1121,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3166,12 +3165,12 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1128,
+                                                lineNumber: 1127,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 1127,
+                                            lineNumber: 1126,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3179,7 +3178,7 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                             children: fmtT(client.demand_t)
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 1132,
+                                            lineNumber: 1131,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3188,12 +3187,12 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                                 children: fmtT(client.allocated_t)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1134,
+                                                lineNumber: 1133,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 1133,
+                                            lineNumber: 1132,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3215,7 +3214,7 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 1138,
+                                                        lineNumber: 1137,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ProgressBar, {
@@ -3224,18 +3223,18 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                                         variant: client.status === "COMPLETE" ? "good" : "warn"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 1139,
+                                                        lineNumber: 1138,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1137,
+                                                lineNumber: 1136,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 1136,
+                                            lineNumber: 1135,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3243,7 +3242,7 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                             children: client.remaining_t > 0 ? signedT(-client.remaining_t) : "0.0 t"
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 1146,
+                                            lineNumber: 1145,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3251,7 +3250,7 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                             children: fmtEur(client.export_revenue_eur)
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 1149,
+                                            lineNumber: 1148,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3260,12 +3259,12 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                                 children: client.status
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1151,
+                                                lineNumber: 1150,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 1150,
+                                            lineNumber: 1149,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3273,12 +3272,12 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                                 children: client.shortage_reason
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1155,
+                                                lineNumber: 1154,
                                                 columnNumber: 49
                                             }, this) : "-"
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 1155,
+                                            lineNumber: 1154,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3291,48 +3290,48 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
                                                         name: "visibility"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 1162,
+                                                        lineNumber: 1161,
                                                         columnNumber: 23
                                                     }, this),
                                                     "Trace"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1157,
+                                                lineNumber: 1156,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 1156,
+                                            lineNumber: 1155,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, client.client_id, true, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 1121,
+                                    lineNumber: 1120,
                                     columnNumber: 17
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 1117,
+                            lineNumber: 1116,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/page.jsx",
-                    lineNumber: 1102,
+                    lineNumber: 1101,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1101,
+                lineNumber: 1100,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 1063,
+        lineNumber: 1062,
         columnNumber: 5
     }, this);
 }
@@ -3411,7 +3410,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1230,
+                        lineNumber: 1229,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -3422,7 +3421,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1231,
+                        lineNumber: 1230,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -3433,13 +3432,13 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1232,
+                        lineNumber: 1231,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1229,
+                lineNumber: 1228,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3455,7 +3454,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                 name: "search"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1238,
+                                lineNumber: 1237,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3465,13 +3464,13 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                 onChange: (e)=>setSearch(e.target.value)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1239,
+                                lineNumber: 1238,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1237,
+                        lineNumber: 1236,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FilterSelect, {
@@ -3481,7 +3480,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                         onChange: (value)=>updateFilter("farm", value)
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1246,
+                        lineNumber: 1245,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FilterSelect, {
@@ -3491,7 +3490,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                         onChange: (value)=>updateFilter("segment", value)
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1247,
+                        lineNumber: 1246,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FilterSelect, {
@@ -3501,7 +3500,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                         onChange: (value)=>updateFilter("client", value)
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1248,
+                        lineNumber: 1247,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FilterSelect, {
@@ -3514,7 +3513,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                         onChange: (value)=>updateFilter("upgrade", value)
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1249,
+                        lineNumber: 1248,
                         columnNumber: 9
                     }, this),
                     filters.farm !== "ALL" || filters.segment !== "ALL" || filters.client !== "ALL" || filters.upgrade !== "ALL" || search ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -3527,13 +3526,13 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                         children: "Clear Filters"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1252,
+                        lineNumber: 1251,
                         columnNumber: 11
                     }, this) : null
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1236,
+                lineNumber: 1235,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -3556,7 +3555,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1267,
+                                lineNumber: 1266,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3571,7 +3570,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                         children: fmtT(totalFilteredTonnes)
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1269,
+                                        lineNumber: 1268,
                                         columnNumber: 21
                                     }, this),
                                     " | ",
@@ -3579,19 +3578,19 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                         children: fmtEur(totalFilteredRevenue)
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1269,
+                                        lineNumber: 1268,
                                         columnNumber: 68
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1268,
+                                lineNumber: 1267,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1266,
+                        lineNumber: 1265,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableWrap"], {
@@ -3607,21 +3606,21 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                 children: "Farm ID"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1277,
+                                                lineNumber: 1276,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                                 children: "Segment"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1278,
+                                                lineNumber: 1277,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                                 children: "Client ID"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1279,
+                                                lineNumber: 1278,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -3629,14 +3628,14 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                 children: "Tonnes"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1280,
+                                                lineNumber: 1279,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                                 children: "Quality Upgrade"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1281,
+                                                lineNumber: 1280,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -3644,7 +3643,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                 children: "Export Price"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1282,
+                                                lineNumber: 1281,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -3652,18 +3651,18 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                 children: "Export Revenue"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1283,
+                                                lineNumber: 1282,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1276,
+                                        lineNumber: 1275,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 1275,
+                                    lineNumber: 1274,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -3674,12 +3673,12 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                         children: row.farm_id
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 1289,
+                                                        lineNumber: 1288,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1289,
+                                                    lineNumber: 1288,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3691,6 +3690,19 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/page.jsx",
+                                                        lineNumber: 1289,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/page.jsx",
+                                                    lineNumber: 1289,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                        children: row.client_id
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/page.jsx",
                                                         lineNumber: 1290,
                                                         columnNumber: 23
                                                     }, this)
@@ -3700,30 +3712,17 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                        children: row.client_id
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 1291,
-                                                        columnNumber: 23
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1291,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
                                                     className: "num",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                         children: fmtT(row.tonnes)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 1292,
+                                                        lineNumber: 1291,
                                                         columnNumber: 39
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1292,
+                                                    lineNumber: 1291,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3732,12 +3731,12 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                         children: row.quality_upgrade
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 1294,
+                                                        lineNumber: 1293,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1293,
+                                                    lineNumber: 1292,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3748,7 +3747,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1298,
+                                                    lineNumber: 1297,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3757,40 +3756,40 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                         children: fmtEur(row.export_revenue_eur)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 1299,
+                                                        lineNumber: 1298,
                                                         columnNumber: 39
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1299,
+                                                    lineNumber: 1298,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, `${row.farm_id}-${row.segment}-${row.client_id}-${index}`, true, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 1288,
+                                            lineNumber: 1287,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 1286,
+                                    lineNumber: 1285,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 1274,
+                            lineNumber: 1273,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1273,
+                        lineNumber: 1272,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1265,
+                lineNumber: 1264,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -3802,7 +3801,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                         children: "Local Market Residual Breakdown"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1309,
+                        lineNumber: 1308,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3810,7 +3809,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                         children: "Actual volume unserved by export program due to line capacity or quality constraints."
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1310,
+                        lineNumber: 1309,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableWrap"], {
@@ -3826,14 +3825,14 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                 children: "Farm ID"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1317,
+                                                lineNumber: 1316,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                                 children: "Segment"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1318,
+                                                lineNumber: 1317,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -3841,7 +3840,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                 children: "Local Tonnes"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1319,
+                                                lineNumber: 1318,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -3849,7 +3848,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                 children: "Reference Export Price"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1320,
+                                                lineNumber: 1319,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -3857,18 +3856,18 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                 children: "Local Market Value (10%)"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1321,
+                                                lineNumber: 1320,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1316,
+                                        lineNumber: 1315,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 1315,
+                                    lineNumber: 1314,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -3879,12 +3878,12 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                         children: row.farm_id
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 1327,
+                                                        lineNumber: 1326,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1327,
+                                                    lineNumber: 1326,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3896,12 +3895,12 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 1328,
+                                                        lineNumber: 1327,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1328,
+                                                    lineNumber: 1327,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3910,12 +3909,12 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                         children: fmtT(row.tonnes)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 1329,
+                                                        lineNumber: 1328,
                                                         columnNumber: 43
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1329,
+                                                    lineNumber: 1328,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3926,7 +3925,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1330,
+                                                    lineNumber: 1329,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -3935,46 +3934,46 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
                                                         children: fmtEur(row.local_value_eur)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 1331,
+                                                        lineNumber: 1330,
                                                         columnNumber: 39
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1331,
+                                                    lineNumber: 1330,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, `${row.farm_id}-${row.segment}-${index}`, true, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 1326,
+                                            lineNumber: 1325,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 1324,
+                                    lineNumber: 1323,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 1314,
+                            lineNumber: 1313,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1313,
+                        lineNumber: 1312,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1308,
+                lineNumber: 1307,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 1228,
+        lineNumber: 1227,
         columnNumber: 5
     }, this);
 }
@@ -3996,7 +3995,7 @@ function FilterSelect({ label, value, options, onChange }) {
                 children: label
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1345,
+                lineNumber: 1344,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Select"], {
@@ -4015,7 +4014,7 @@ function FilterSelect({ label, value, options, onChange }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1347,
+                        lineNumber: 1346,
                         columnNumber: 9
                     }, this),
                     options.map((option)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -4023,19 +4022,19 @@ function FilterSelect({ label, value, options, onChange }) {
                             children: option
                         }, option, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 1349,
+                            lineNumber: 1348,
                             columnNumber: 11
                         }, this))
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1346,
+                lineNumber: 1345,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 1344,
+        lineNumber: 1343,
         columnNumber: 5
     }, this);
 }
@@ -4045,11 +4044,11 @@ function AssistantView({ assistant, customQuestion, setCustomQuestion, askAssist
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PageHead, {
-                title: "AI Planning Assistant",
-                subtitle: "Grounded decision explanations from calculated planning data"
+                title: "Planning Assistant",
+                subtitle: "Ask about client risk, farm/segment gaps, or local residual value."
             }, void 0, false, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1367,
+                lineNumber: 1366,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4065,12 +4064,12 @@ function AssistantView({ assistant, customQuestion, setCustomQuestion, askAssist
                                     children: "Suggested Questions"
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 1371,
+                                    lineNumber: 1370,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1370,
+                                lineNumber: 1369,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4095,19 +4094,19 @@ function AssistantView({ assistant, customQuestion, setCustomQuestion, askAssist
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1389,
+                                                lineNumber: 1388,
                                                 columnNumber: 17
                                             }, this),
                                             question
                                         ]
                                     }, question, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1375,
+                                        lineNumber: 1374,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1373,
+                                lineNumber: 1372,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4119,14 +4118,14 @@ function AssistantView({ assistant, customQuestion, setCustomQuestion, askAssist
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
                                         value: customQuestion,
                                         onChange: (event)=>setCustomQuestion(event.target.value),
-                                        placeholder: "Ask a question about current plan...",
+                                        placeholder: "Ask about client risk, farm/segment gaps, or local residual value...",
                                         onKeyDown: (e)=>e.key === "Enter" && askAssistant(customQuestion),
                                         style: {
                                             fontSize: 14
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1395,
+                                        lineNumber: 1394,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -4140,26 +4139,26 @@ function AssistantView({ assistant, customQuestion, setCustomQuestion, askAssist
                                                 name: "send"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1403,
+                                                lineNumber: 1402,
                                                 columnNumber: 15
                                             }, this),
                                             "Ask"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1402,
+                                        lineNumber: 1401,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1394,
+                                lineNumber: 1393,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1369,
+                        lineNumber: 1368,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -4181,7 +4180,7 @@ function AssistantView({ assistant, customQuestion, setCustomQuestion, askAssist
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1412,
+                                        lineNumber: 1411,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4190,10 +4189,10 @@ function AssistantView({ assistant, customQuestion, setCustomQuestion, askAssist
                                                 style: {
                                                     fontSize: 16
                                                 },
-                                                children: "Analyzing calculated data..."
+                                                children: "Analyzing calculated planning data..."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1414,
+                                                lineNumber: 1413,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4202,22 +4201,22 @@ function AssistantView({ assistant, customQuestion, setCustomQuestion, askAssist
                                                     fontSize: 14,
                                                     marginTop: 2
                                                 },
-                                                children: "Synthesizing evidence across farms and commercial clients"
+                                                children: "Synthesizing facts across farms and commercial clients"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1415,
+                                                lineNumber: 1414,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1413,
+                                        lineNumber: 1412,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1411,
+                                lineNumber: 1410,
                                 columnNumber: 13
                             }, this) : null,
                             assistant.error ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4233,17 +4232,18 @@ function AssistantView({ assistant, customQuestion, setCustomQuestion, askAssist
                                         children: assistant.error.title
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1422,
+                                        lineNumber: 1421,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         style: {
-                                            fontSize: 14.5
+                                            fontSize: 14.5,
+                                            whiteSpace: "pre-line"
                                         },
                                         children: assistant.error.message
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1423,
+                                        lineNumber: 1422,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -4253,20 +4253,20 @@ function AssistantView({ assistant, customQuestion, setCustomQuestion, askAssist
                                                 name: "replay"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1425,
+                                                lineNumber: 1424,
                                                 columnNumber: 17
                                             }, this),
                                             "Retry Question"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1424,
+                                        lineNumber: 1423,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1421,
+                                lineNumber: 1420,
                                 columnNumber: 13
                             }, this) : null,
                             response ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -4281,40 +4281,68 @@ function AssistantView({ assistant, customQuestion, setCustomQuestion, askAssist
                                                 children: response.provider_state || "Deterministic Engine Response"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1434,
+                                                lineNumber: 1433,
                                                 columnNumber: 17
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 style: {
-                                                    marginTop: 4,
-                                                    fontSize: 20
+                                                    display: "flex",
+                                                    alignItems: "center",
+                                                    gap: 10,
+                                                    marginTop: 4
                                                 },
-                                                children: response.mode === "deterministic" ? "Calculated Explanation" : "Assistant Response"
-                                            }, void 0, false, {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                                        style: {
+                                                            fontSize: 20,
+                                                            margin: 0
+                                                        },
+                                                        children: response.mode === "deterministic" ? "Deterministic Summary" : "AI Planning Assistant Response"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/page.jsx",
+                                                        lineNumber: 1435,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
+                                                        variant: response.mode === "ai" ? "default" : "yellow",
+                                                        style: {
+                                                            fontSize: 12,
+                                                            textTransform: "uppercase",
+                                                            letterSpacing: "0.05em"
+                                                        },
+                                                        children: response.mode === "ai" ? "AI Answer" : "Deterministic Fallback"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/page.jsx",
+                                                        lineNumber: 1438,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1435,
+                                                lineNumber: 1434,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1433,
+                                        lineNumber: 1432,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         style: {
-                                            fontSize: 16,
+                                            fontSize: 15.5,
                                             lineHeight: 1.65,
                                             color: "var(--black)",
-                                            fontWeight: 500
+                                            fontWeight: 500,
+                                            whiteSpace: "pre-line"
                                         },
                                         children: response.answer
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1439,
+                                        lineNumber: 1446,
                                         columnNumber: 15
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    response.evidence && response.evidence.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {
                                             marginTop: 12
                                         },
@@ -4326,41 +4354,48 @@ function AssistantView({ assistant, customQuestion, setCustomQuestion, askAssist
                                                     display: "block",
                                                     fontSize: 12
                                                 },
-                                                children: "Supporting Evidence:"
+                                                children: "Verified Evidence:"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1443,
-                                                columnNumber: 17
+                                                lineNumber: 1451,
+                                                columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "warning-facts",
-                                                children: (response.evidence || []).map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
-                                                        variant: String(item).startsWith("C0") || String(item).includes("Segment A") ? "yellow" : "default",
+                                                children: response.evidence.map((item, idx)=>{
+                                                    const isObj = typeof item === "object" && item !== null;
+                                                    const type = isObj ? item.type : "";
+                                                    const id = isObj ? item.id : String(item);
+                                                    const label = type === "segment" && !id.startsWith("Segment") ? `Segment ${id}` : id;
+                                                    const key = isObj ? `${item.type}-${item.id}-${idx}` : `${item}-${idx}`;
+                                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
+                                                        variant: label.startsWith("C0") || label.includes("Segment A") ? "yellow" : "default",
                                                         style: {
                                                             fontSize: 13,
                                                             padding: "4px 10px"
                                                         },
-                                                        children: item
-                                                    }, item, false, {
+                                                        children: label
+                                                    }, key, false, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 1446,
-                                                        columnNumber: 21
-                                                    }, this))
+                                                        lineNumber: 1460,
+                                                        columnNumber: 25
+                                                    }, this);
+                                                })
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1444,
-                                                columnNumber: 17
+                                                lineNumber: 1452,
+                                                columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1442,
-                                        columnNumber: 15
-                                    }, this)
+                                        lineNumber: 1450,
+                                        columnNumber: 17
+                                    }, this) : null
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1432,
+                                lineNumber: 1431,
                                 columnNumber: 13
                             }, this) : null,
                             !assistant.loading && !assistant.error && !response ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4377,7 +4412,7 @@ function AssistantView({ assistant, customQuestion, setCustomQuestion, askAssist
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1465,
+                                        lineNumber: 1481,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4389,31 +4424,43 @@ function AssistantView({ assistant, customQuestion, setCustomQuestion, askAssist
                                         children: "Select a suggested question or type your prompt above."
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1466,
+                                        lineNumber: 1482,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "subtitle",
+                                        style: {
+                                            fontSize: 13.5,
+                                            marginTop: 4
+                                        },
+                                        children: "Supported topics: clients at risk, farm/segment gaps, or local residual value."
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.jsx",
+                                        lineNumber: 1483,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1464,
+                                lineNumber: 1480,
                                 columnNumber: 13
                             }, this) : null
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1409,
+                        lineNumber: 1408,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1368,
+                lineNumber: 1367,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 1366,
+        lineNumber: 1365,
         columnNumber: 5
     }, this);
 }
@@ -4432,7 +4479,7 @@ function ImpactDrawer({ item }) {
                                 children: "Farm / Segment Gap"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1480,
+                                lineNumber: 1497,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
@@ -4440,13 +4487,13 @@ function ImpactDrawer({ item }) {
                                 children: signedT(item.variance_t)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1481,
+                                lineNumber: 1498,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1479,
+                        lineNumber: 1496,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4456,20 +4503,20 @@ function ImpactDrawer({ item }) {
                                 children: "Actual Received"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1484,
+                                lineNumber: 1501,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                 children: fmtT(item.actual_t)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1485,
+                                lineNumber: 1502,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1483,
+                        lineNumber: 1500,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4479,20 +4526,20 @@ function ImpactDrawer({ item }) {
                                 children: "Export Allocated"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1488,
+                                lineNumber: 1505,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                 children: fmtT(item.allocated_t)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1489,
+                                lineNumber: 1506,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1487,
+                        lineNumber: 1504,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4502,7 +4549,7 @@ function ImpactDrawer({ item }) {
                                 children: "Local Residual"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1492,
+                                lineNumber: 1509,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
@@ -4510,19 +4557,19 @@ function ImpactDrawer({ item }) {
                                 children: fmtT(item.local_t)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1493,
+                                lineNumber: 1510,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1491,
+                        lineNumber: 1508,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1478,
+                lineNumber: 1495,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -4532,7 +4579,7 @@ function ImpactDrawer({ item }) {
                         children: "Affected Export Clients"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1498,
+                        lineNumber: 1515,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4551,25 +4598,25 @@ function ImpactDrawer({ item }) {
                                 ]
                             }, client.client_id, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1502,
+                                lineNumber: 1519,
                                 columnNumber: 15
                             }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
                             variant: "yellow",
                             children: "No client shortage tied to this farm segment"
                         }, void 0, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 1508,
+                            lineNumber: 1525,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1499,
+                        lineNumber: 1516,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1497,
+                lineNumber: 1514,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -4579,7 +4626,7 @@ function ImpactDrawer({ item }) {
                         children: "Direct Allocations"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1514,
+                        lineNumber: 1531,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4595,31 +4642,31 @@ function ImpactDrawer({ item }) {
                                 ]
                             }, `${allocation.client_id}-${index}`, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1518,
+                                lineNumber: 1535,
                                 columnNumber: 15
                             }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
                             variant: "yellow",
                             children: "No export allocation line"
                         }, void 0, false, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 1523,
+                            lineNumber: 1540,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1515,
+                        lineNumber: 1532,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1513,
+                lineNumber: 1530,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 1477,
+        lineNumber: 1494,
         columnNumber: 5
     }, this);
 }
@@ -4649,20 +4696,20 @@ function ClientTraceDrawer({ client, plan }) {
                                 children: "Program Demand"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1540,
+                                lineNumber: 1557,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                 children: fmtT(client.demand_t)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1541,
+                                lineNumber: 1558,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1539,
+                        lineNumber: 1556,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4672,7 +4719,7 @@ function ClientTraceDrawer({ client, plan }) {
                                 children: "Allocated Volume"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1544,
+                                lineNumber: 1561,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
@@ -4680,13 +4727,13 @@ function ClientTraceDrawer({ client, plan }) {
                                 children: fmtT(client.allocated_t)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1545,
+                                lineNumber: 1562,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1543,
+                        lineNumber: 1560,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4696,7 +4743,7 @@ function ClientTraceDrawer({ client, plan }) {
                                 children: "Shortage Remaining"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1548,
+                                lineNumber: 1565,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
@@ -4704,13 +4751,13 @@ function ClientTraceDrawer({ client, plan }) {
                                 children: fmtT(client.remaining_t)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1549,
+                                lineNumber: 1566,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1547,
+                        lineNumber: 1564,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4720,26 +4767,26 @@ function ClientTraceDrawer({ client, plan }) {
                                 children: "Export Revenue"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1554,
+                                lineNumber: 1571,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                 children: fmtEur(client.export_revenue_eur)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1555,
+                                lineNumber: 1572,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1553,
+                        lineNumber: 1570,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1538,
+                lineNumber: 1555,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -4749,7 +4796,7 @@ function ClientTraceDrawer({ client, plan }) {
                         children: "Quality Acceptance Rule"
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1560,
+                        lineNumber: 1577,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4760,7 +4807,7 @@ function ClientTraceDrawer({ client, plan }) {
                                 children: client.acceptance_mode
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1562,
+                                lineNumber: 1579,
                                 columnNumber: 17
                             }, this),
                             " | Requested Segment:",
@@ -4772,19 +4819,19 @@ function ClientTraceDrawer({ client, plan }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 1563,
+                                lineNumber: 1580,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1561,
+                        lineNumber: 1578,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1559,
+                lineNumber: 1576,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -4798,7 +4845,7 @@ function ClientTraceDrawer({ client, plan }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1568,
+                        lineNumber: 1585,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$table$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableWrap"], {
@@ -4814,14 +4861,14 @@ function ClientTraceDrawer({ client, plan }) {
                                                 children: "Farm ID"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1573,
+                                                lineNumber: 1590,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                                 children: "Segment"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1574,
+                                                lineNumber: 1591,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -4829,25 +4876,25 @@ function ClientTraceDrawer({ client, plan }) {
                                                 children: "Tonnes"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1575,
+                                                lineNumber: 1592,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                                 children: "Quality Match"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.jsx",
-                                                lineNumber: 1576,
+                                                lineNumber: 1593,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 1572,
+                                        lineNumber: 1589,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 1571,
+                                    lineNumber: 1588,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -4858,12 +4905,12 @@ function ClientTraceDrawer({ client, plan }) {
                                                         children: row.farm_id
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 1582,
+                                                        lineNumber: 1599,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1582,
+                                                    lineNumber: 1599,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -4873,7 +4920,7 @@ function ClientTraceDrawer({ client, plan }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1583,
+                                                    lineNumber: 1600,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -4882,12 +4929,12 @@ function ClientTraceDrawer({ client, plan }) {
                                                         children: fmtT(row.tonnes)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 1584,
+                                                        lineNumber: 1601,
                                                         columnNumber: 39
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1584,
+                                                    lineNumber: 1601,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -4896,46 +4943,46 @@ function ClientTraceDrawer({ client, plan }) {
                                                         children: row.quality_upgrade
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.jsx",
-                                                        lineNumber: 1586,
+                                                        lineNumber: 1603,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.jsx",
-                                                    lineNumber: 1585,
+                                                    lineNumber: 1602,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, `${row.farm_id}-${row.segment}-${index}`, true, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 1581,
+                                            lineNumber: 1598,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 1579,
+                                    lineNumber: 1596,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/page.jsx",
-                            lineNumber: 1570,
+                            lineNumber: 1587,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/page.jsx",
-                        lineNumber: 1569,
+                        lineNumber: 1586,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.jsx",
-                lineNumber: 1567,
+                lineNumber: 1584,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 1537,
+        lineNumber: 1554,
         columnNumber: 5
     }, this);
 }
