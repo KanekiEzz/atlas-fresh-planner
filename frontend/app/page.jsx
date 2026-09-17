@@ -247,9 +247,13 @@ export default function PlannerPage() {
           alertsCount={alertsCount}
           farmsCount={plan?.farms_count}
         />
-        <Card size="sm" className="sidebar-support">
+        <Card size="sm" className="sidebar-support min-w-0 max-w-full">
           <CardTitle>Decision Support</CardTitle>
-          <p className="subtitle text-black ">Deterministic farm-to-client allocation & residual analytics.</p>
+          <CardContent className="min-w-0 max-w-full">
+            <p className="subtitle text-black max-w-full break-words">
+              Deterministic farm-to-client allocation & residual analytics.
+            </p>
+          </CardContent>
         </Card>
         <div className="sidebar-account">
           <span className="avatar">AF</span>
@@ -743,7 +747,7 @@ function Production({ plan, openImpact, globalSearch }) {
       </PageHead>
 
       {/* Segment Summary Cards */}
-      <section className="grid kpis" style={{ gridTemplateColumns: "repeat(4, 1fr)" }}>
+      <section className="grid kpis segment-kpis">
         {SEGMENTS.map((segment) => {
           const actual = plan.actual_by_segment_t[segment] || 0;
           const variance = plan.segment_variance_t[segment] || 0;
@@ -1230,7 +1234,7 @@ function AssistantView({
       <section className="assistant-shell">
         <Card>
           <CardHeader>
-            <CardTitle>Suggested Questions</CardTitle>
+            <CardTitle style={{ fontSize: 18 }}>Suggested Questions</CardTitle>
           </CardHeader>
           <div className="question-list">
             {QUESTIONS.map((question) => (
@@ -1243,8 +1247,9 @@ function AssistantView({
                   minHeight: 46,
                   justifyContent: "flex-start",
                   textAlign: "left",
-                  padding: "10px 14px",
-                  lineHeight: 1.3,
+                  padding: "12px 14px",
+                  lineHeight: 1.4,
+                  fontSize: 14.5,
                 }}
               >
                 <Icon name="help" style={{ flexShrink: 0 }} />
@@ -1258,8 +1263,9 @@ function AssistantView({
               onChange={(event) => setCustomQuestion(event.target.value)}
               placeholder="Ask a question about current plan..."
               onKeyDown={(e) => e.key === "Enter" && askAssistant(customQuestion)}
+              style={{ fontSize: 14 }}
             />
-            <Button variant="default" onClick={() => askAssistant(customQuestion)}>
+            <Button variant="default" onClick={() => askAssistant(customQuestion)} style={{ fontSize: 14 }}>
               <Icon name="send" />
               Ask
             </Button>
@@ -1268,19 +1274,19 @@ function AssistantView({
 
         <Card className="answer">
           {assistant.loading ? (
-            <div style={{ display: "flex", alignItems: "center", gap: 10, padding: 20 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 12, padding: 20 }}>
               <Icon name="sync" className="spin" style={{ fontSize: 28 }} />
               <div>
-                <strong>Analyzing calculated data...</strong>
-                <p className="subtitle">Synthesizing evidence across farms and commercial clients</p>
+                <strong style={{ fontSize: 16 }}>Analyzing calculated data...</strong>
+                <p className="subtitle" style={{ fontSize: 14, marginTop: 2 }}>Synthesizing evidence across farms and commercial clients</p>
               </div>
             </div>
           ) : null}
 
           {assistant.error ? (
             <div className="error-state" style={{ margin: 0 }}>
-              <h2>{assistant.error.title}</h2>
-              <p>{assistant.error.message}</p>
+              <h2 style={{ fontSize: 18 }}>{assistant.error.title}</h2>
+              <p style={{ fontSize: 14.5 }}>{assistant.error.message}</p>
               <Button onClick={() => askAssistant(assistant.lastQuestion || QUESTIONS[0])}>
                 <Icon name="replay" />
                 Retry Question
@@ -1291,16 +1297,16 @@ function AssistantView({
           {response ? (
             <>
               <div>
-                <span className="eyebrow">{response.provider_state || "Deterministic Engine Response"}</span>
-                <h2 style={{ marginTop: 4 }}>
+                <span className="eyebrow" style={{ fontSize: 12 }}>{response.provider_state || "Deterministic Engine Response"}</span>
+                <h2 style={{ marginTop: 4, fontSize: 20 }}>
                   {response.mode === "deterministic" ? "Calculated Explanation" : "Assistant Response"}
                 </h2>
               </div>
-              <p style={{ fontSize: 14.5, lineHeight: 1.6, color: "var(--black)" }}>
+              <p style={{ fontSize: 16, lineHeight: 1.65, color: "var(--black)", fontWeight: 500 }}>
                 {response.answer}
               </p>
               <div style={{ marginTop: 12 }}>
-                <span className="eyebrow" style={{ marginBottom: 6, display: "block" }}>Supporting Evidence:</span>
+                <span className="eyebrow" style={{ marginBottom: 6, display: "block", fontSize: 12 }}>Supporting Evidence:</span>
                 <div className="warning-facts">
                   {(response.evidence || []).map((item) => (
                     <Badge
@@ -1310,6 +1316,7 @@ function AssistantView({
                           ? "yellow"
                           : "default"
                       }
+                      style={{ fontSize: 13, padding: "4px 10px" }}
                     >
                       {item}
                     </Badge>
@@ -1322,7 +1329,7 @@ function AssistantView({
           {!assistant.loading && !assistant.error && !response ? (
             <div style={{ textAlign: "center", padding: "40px 20px", color: "var(--black)" }}>
               <Icon name="psychology" style={{ fontSize: 48 }} />
-              <p style={{ marginTop: 10, fontWeight: 600 }}>Select a suggested question or type your prompt above.</p>
+              <p style={{ marginTop: 10, fontWeight: 600, fontSize: 16 }}>Select a suggested question or type your prompt above.</p>
             </div>
           ) : null}
         </Card>
