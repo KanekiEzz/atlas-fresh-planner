@@ -652,8 +652,8 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
             style={{
               padding: 12,
               borderRadius: 10,
-              background: "var(--yellow)",
-              border: "2px solid var(--black)",
+              background: "var(--yellow-soft)",
+              border: "2px solid var(--yellow-border)",
               marginTop: 10,
             }}
           >
@@ -681,7 +681,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                   borderRadius: 10,
                   background: "var(--surface)",
                   cursor: "pointer",
-                  border: "2px solid var(--black)",
+                  border: "2px solid var(--border)",
                 }}
               >
                 <div>
@@ -937,7 +937,7 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
 
       {/* At Risk Summary Card */}
       {atRisk.length > 0 ? (
-        <Card style={{ marginBottom: 16, borderLeft: "8px solid var(--black)" }}>
+        <Card style={{ marginBottom: 16, borderLeft: "8px solid var(--yellow)" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <Icon name="error" style={{ fontSize: 24 }} />
             <div>
@@ -1099,7 +1099,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
       </PageHead>
 
       {/* Filter Toolbar */}
-      <div className="toolbar" style={{ background: "var(--white)", padding: 14, borderRadius: 12, border: "2px solid var(--black)" }}>
+      <div className="toolbar" style={{ background: "var(--white)", padding: 14, borderRadius: 12, border: "2px solid var(--border)" }}>
         <div className="search-pill" style={{ width: 220 }}>
           <Icon name="search" />
           <input
