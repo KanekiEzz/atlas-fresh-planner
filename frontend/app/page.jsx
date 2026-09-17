@@ -37,6 +37,7 @@ const fmtEur = (value) =>
   `EUR ${Number(value || 0).toLocaleString("en-US", { maximumFractionDigits: 0 })}`;
 const signedT = (value) => `${value > 0 ? "+" : ""}${Number(value || 0).toFixed(1)} t`;
 const cssVar = (value) => (Number(value || 0) < 0 ? "neg" : "pos");
+const pctOf = (value, max) => Math.min(100, Math.max(0, max > 0 ? (value / max) * 100 : 0));
 
 async function api(path, options = {}) {
   const response = await fetch(path, {
@@ -62,9 +63,9 @@ function Icon({ name, className, style }) {
 }
 
 function ProgressBar({ value, max, variant = "good" }) {
-  const pct = Math.min(100, Math.max(0, max > 0 ? (value / max) * 100 : 0));
+  const pct = pctOf(value, max);
   return (
-    <div className="progress-bar-bg" title={`${pct.toFixed(1)}%`}>
+    <div className="progress-bar-bg" title={`${pct.toFixed(1)}%`} aria-label={`${pct.toFixed(1)}%`}>
       <div
         className={cn(
           "progress-bar-fill",
@@ -389,12 +390,17 @@ function PageHead({ title, subtitle, children }) {
   );
 }
 
-function Metric({ label, value, subtext, icon, warning = false, progress = null }) {
+function Metric({ label, value, subtext, icon, warning = false, progress = null, emphasis = false }) {
   return (
-    <Card className={cn("metric", warning && "warning")}>
+    <Card className={cn("metric", warning && "warning", emphasis && "is-emphasis")}>
       <div className="metric-header">
         <span>{label}</span>
-        {icon ? <span className="metric-icon"><Icon name={icon} /></span> : null}
+			  {/* {icon ? <span className="metric-icon"><Icon name={icon} /></span> : null}*/}
+			  {icon ? (
+          <span className={cn("metric-icon", warning && "warning-icon")}>
+            <Icon name={icon} />
+          </span>
+        ) : null}
       </div>
       <strong>{value}</strong>
       {progress !== null ? (
@@ -402,8 +408,136 @@ function Metric({ label, value, subtext, icon, warning = false, progress = null 
           <ProgressBar value={progress} max={100} variant={warning ? "warn" : "good"} />
         </div>
       ) : subtext ? (
-        <span style={{ fontSize: 11, color: "var(--black)", fontWeight: 600, marginTop: 4 }}>{subtext}</span>
+        <span className="metric-meta">{subtext}</span>
       ) : null}
+    </Card>
+  );
+}
+
+function MiniBar({ label, value, max, meta, tone = "neutral" }) {
+  const pct = pctOf(value, max);
+  return (
+    <div className="mini-bar">
+      <div className="mini-bar-head">
+        <span>{label}</span>
+        <strong>{meta}</strong>
+      </div>
+      <div className="mini-bar-track">
+        <div className={cn("mini-bar-fill", tone)} style={{ width: `${pct}%` }} />
+      </div>
+    </div>
+  );
+}
+
+function DecisionFlow({ plan, atRisk }) {
+  const shortageT = atRisk.reduce((sum, client) => sum + Number(client.remaining_t || 0), 0);
+  const capacityPct = pctOf(plan.exported_t, plan.station_capacity_t);
+  const localReason =
+    plan.exported_t >= plan.station_capacity_t
+      ? "Station capacity reached before all fruit could move to export"
+      : "Compatible export demand exhausted after allocation";
+
+  const steps = [
+    {
+      icon: "agriculture",
+      label: "What happened",
+      title: `${signedT(plan.production_variance_t)} production variance`,
+      detail: "Actual receipts diverged from the pre-season plan.",
+    },
+    {
+      icon: "precision_manufacturing",
+      label: "Constraint",
+      title: `${capacityPct.toFixed(1)}% station utilization`,
+      detail: localReason,
+    },
+    {
+      icon: "groups",
+      label: "Who is affected",
+      title: `${atRisk.length} clients at risk`,
+      detail: `${fmtT(shortageT)} remaining commercial shortage exposure.`,
+    },
+    {
+      icon: "storefront",
+      label: "Action focus",
+      title: `${fmtT(plan.local_t)} rerouted locally`,
+      detail: "Review local residuals and shortage trace before dispatch close.",
+    },
+  ];
+
+  return (
+    <section className="decision-flow" aria-label="Operational decision flow">
+      {steps.map((step) => (
+        <div className="decision-step" key={step.label}>
+          <span className="decision-icon"><Icon name={step.icon} /></span>
+          <div>
+            <span>{step.label}</span>
+            <strong>{step.title}</strong>
+            <p>{step.detail}</p>
+          </div>
+        </div>
+      ))}
+    </section>
+  );
+}
+
+function SegmentBars({ plan }) {
+  const maxActual = Math.max(...SEGMENTS.map((segment) => plan.actual_by_segment_t[segment] || 0), 1);
+  return (
+    <div className="segment-bars" aria-label="Segment production distribution">
+      {SEGMENTS.map((segment) => {
+        const actual = plan.actual_by_segment_t[segment] || 0;
+        const variance = plan.segment_variance_t[segment] || 0;
+        return (
+          <MiniBar
+            key={segment}
+            label={`Segment ${segment}`}
+            value={actual}
+            max={maxActual}
+            meta={`${fmtT(actual)} | ${signedT(variance)}`}
+            tone={variance < 0 ? "warn" : "neutral"}
+          />
+        );
+      })}
+    </div>
+  );
+}
+
+function OperationsSnapshot({ plan, atRisk }) {
+  const shortageT = atRisk.reduce((sum, client) => sum + Number(client.remaining_t || 0), 0);
+  return (
+    <Card className="ops-snapshot">
+      <CardHeader>
+        <CardTitle>Operational Flow</CardTitle>
+        <p className="subtitle">Production -> Capacity -> Allocation -> Risk</p>
+      </CardHeader>
+      <div className="ops-grid">
+        <MiniBar
+          label="Production vs Plan"
+          value={plan.actual_total_t}
+          max={plan.expected_total_t}
+          meta={`${fmtT(plan.actual_total_t)} / ${fmtT(plan.expected_total_t)}`}
+        />
+        <MiniBar
+          label="Station Capacity"
+          value={plan.exported_t}
+          max={plan.station_capacity_t}
+          meta={`${pctOf(plan.exported_t, plan.station_capacity_t).toFixed(1)}% used`}
+          tone={plan.exported_t >= plan.station_capacity_t ? "warn" : "neutral"}
+        />
+        <MiniBar
+          label="Export Allocation"
+          value={plan.exported_t}
+          max={plan.actual_total_t}
+          meta={`${fmtT(plan.exported_t)} exported`}
+        />
+        <MiniBar
+          label="Shortage Exposure"
+          value={shortageT}
+          max={Math.max(shortageT + plan.exported_t, 1)}
+          meta={`${fmtT(shortageT)} at risk`}
+          tone={shortageT > 0 ? "warn" : "neutral"}
+        />
+      </div>
     </Card>
   );
 }
@@ -499,11 +633,8 @@ function ServerError({ error, onRecalc, onReset }) {
 
 function Overview({ plan, status, openImpact, openClientTrace }) {
   const atRisk = plan.clients.filter((client) => client.status !== "COMPLETE");
-  const exportPct = ((plan.exported_t / plan.actual_total_t) * 100).toFixed(1);
-  const exportRevPct = (
-    (plan.export_revenue_eur / (plan.total_value_eur || 1)) *
-    100
-  ).toFixed(1);
+  const exportPct = pctOf(plan.exported_t, plan.actual_total_t);
+  const exportRevPct = pctOf(plan.export_revenue_eur, plan.total_value_eur || 1);
 
   return (
     <>
@@ -523,6 +654,8 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
         </Badge>
       </PageHead>
 
+      <DecisionFlow plan={plan} atRisk={atRisk} />
+
       <section className="grid kpis">
         <Metric
           label="Planned Total"
@@ -535,6 +668,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
           value={fmtT(plan.actual_total_t)}
           icon="agriculture"
           subtext={`Variance: ${signedT(plan.production_variance_t)}`}
+          emphasis
         />
         <Metric
           label="Station Capacity"
@@ -546,7 +680,8 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
           label="Export Allocated"
           value={fmtT(plan.exported_t)}
           icon="local_shipping"
-          subtext={`${exportPct}% of harvest exported`}
+          subtext={`${exportPct.toFixed(1)}% of harvest exported`}
+          emphasis
         />
         <Metric
           label="Export Fulfillment"
@@ -563,6 +698,8 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
         />
       </section>
 
+      <OperationsSnapshot plan={plan} atRisk={atRisk} />
+
       {/* Financial Value Summary Card */}
       <section className="value-strip" aria-label="Value summary">
         <div>
@@ -571,7 +708,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
           </span>
           <strong>{fmtEur(plan.export_revenue_eur)}</strong>
           <span style={{ fontSize: 11, marginTop: 4, color: "var(--black)", fontWeight: 700 }}>
-            {exportRevPct}% of total daily value
+            {exportRevPct.toFixed(1)}% of total daily value
           </span>
         </div>
         <div>
@@ -595,10 +732,10 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
       </section>
 
       {/* Revenue Distribution Bar */}
-      <Card size="sm" style={{ marginBottom: 16 }}>
-        <div style={{ display: "flex", justifyContent: "space-between", fontSize: 12, fontWeight: 700 }}>
+      <Card size="sm" className="insight-card">
+        <div className="insight-card-head">
           <span>
-            Export Revenue: {fmtEur(plan.export_revenue_eur)} ({exportRevPct}%)
+            Export Revenue: {fmtEur(plan.export_revenue_eur)} ({exportRevPct.toFixed(1)}%)
           </span>
           <span>
             Local Market Value: {fmtEur(plan.local_value_eur)} ({(100 - exportRevPct).toFixed(1)}%)
@@ -639,6 +776,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
           <CardHeader>
             <CardTitle>Production vs Plan Summary</CardTitle>
           </CardHeader>
+          <SegmentBars plan={plan} />
           <div className="warning-facts">
             <Badge variant="default">Expected: {fmtT(plan.expected_total_t)}</Badge>
             <Badge variant="yellow">Variance: {signedT(plan.production_variance_t)}</Badge>
@@ -653,7 +791,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
               padding: 12,
               borderRadius: 10,
               background: "var(--yellow-soft)",
-              border: "2px solid var(--yellow-border)",
+              border: "1px solid var(--yellow-border)",
               marginTop: 10,
             }}
           >
@@ -667,22 +805,17 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
         <Card>
           <CardHeader>
             <CardTitle>Client Shortage Risk ({atRisk.length} At Risk)</CardTitle>
+            <p className="subtitle">Click a client to inspect the allocation trace.</p>
           </CardHeader>
-          <div style={{ display: "grid", gap: 10 }}>
+          <div className="risk-list">
             {atRisk.map((client) => (
               <div
                 key={client.client_id}
                 onClick={() => openClientTrace(client)}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "space-between",
-                  padding: 10,
-                  borderRadius: 10,
-                  background: "var(--surface)",
-                  cursor: "pointer",
-                  border: "2px solid var(--border)",
-                }}
+                className="risk-item"
+                role="button"
+                tabIndex={0}
+                onKeyDown={(event) => event.key === "Enter" && openClientTrace(client)}
               >
                 <div>
                   <strong style={{ fontSize: 14 }}>{client.client_id}</strong>
@@ -693,6 +826,7 @@ function Overview({ plan, status, openImpact, openClientTrace }) {
                     Shortage: {fmtT(client.remaining_t)} ({client.shortage_reason})
                   </div>
                 </div>
+                <Icon name="chevron_right" className="risk-arrow" />
                 <Badge variant={client.status === "UNSERVED" ? "black" : "yellow"}>
                   {client.status}
                 </Badge>
@@ -752,7 +886,7 @@ function Production({ plan, openImpact, globalSearch }) {
           const actual = plan.actual_by_segment_t[segment] || 0;
           const variance = plan.segment_variance_t[segment] || 0;
           return (
-            <Card key={segment} size="sm">
+            <Card key={segment} size="sm" className={cn("segment-card", variance < 0 && "is-attention")}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <span className="eyebrow">Segment {segment}</span>
                 <Badge variant={variance < 0 ? "yellow" : "default"}>
@@ -790,7 +924,7 @@ function Production({ plan, openImpact, globalSearch }) {
       </Card>
 
       {/* Toolbar & Filter Controls */}
-      <div className="toolbar" style={{ marginTop: 16 }}>
+      <div className="toolbar filter-bar" style={{ marginTop: 16 }}>
         <div className="search-pill" style={{ width: 280 }}>
           <Icon name="search" />
           <input
@@ -937,7 +1071,7 @@ function Commercial({ plan, openClientTrace, globalSearch }) {
 
       {/* At Risk Summary Card */}
       {atRisk.length > 0 ? (
-        <Card style={{ marginBottom: 16, borderLeft: "8px solid var(--yellow)" }}>
+        <Card className="attention-card" style={{ marginBottom: 16 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <Icon name="error" style={{ fontSize: 24 }} />
             <div>
@@ -1099,7 +1233,7 @@ function Allocations({ plan, filters, setFilters, globalSearch }) {
       </PageHead>
 
       {/* Filter Toolbar */}
-      <div className="toolbar" style={{ background: "var(--white)", padding: 14, borderRadius: 12, border: "2px solid var(--border)" }}>
+      <div className="toolbar filter-bar">
         <div className="search-pill" style={{ width: 220 }}>
           <Icon name="search" />
           <input
